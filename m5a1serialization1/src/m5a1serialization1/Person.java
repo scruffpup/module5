@@ -29,6 +29,14 @@ public class Person implements Serializable {
 		this.setCellPhone(phone);
 		
 	}
+	
+	public Person()
+	{
+		this.setFirstName("");
+		this.setLastName("");
+		this.setCellPhone("");
+		
+	}
 
 	/**
 	 * @return the firstName
